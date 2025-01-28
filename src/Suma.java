@@ -5,6 +5,7 @@ public class Suma {
 
     int Suma(int dato1, int dato2){
         resultat = dato1 + dato2;
+        resultat = "Aquest és el resultat: " & resultat
         return resultat;
     }
 }
